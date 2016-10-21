@@ -56,7 +56,8 @@ public class HoursJogged {
 			}
 		}
 		avgJoggedHours = ((double) totalJoggedHours)/7;
-		System.out.println("This week you jogged " + totalJoggedHours + " hours total.  And an average of " + avgJoggedHours + " a day");
+		
+		System.out.println("This week you jogged " + totalJoggedHours + " TOTAL hours, for an AVERAGE of " + String.format("%.2f", avgJoggedHours) + " /day");
 		if (totalJoggedHours >= 40) {
 			joggerType = "PREMIUM";
 		}
