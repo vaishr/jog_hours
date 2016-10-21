@@ -1,11 +1,9 @@
-#Java Project
+#Jog app
 
-*Project for creating Java applications which do common tasks.*
+*Classifies joggers based on hours*
 
 **Java 7**
 
 * Maven
 * Log4j
 * JUnit
-
-[Vaishnavi Reddy](https://github.com/vaishr)
